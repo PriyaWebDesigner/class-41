@@ -1,0 +1,20 @@
+
+OOP = Object Oriented Programming(PHP, Java, Python, C#, C++)
+
+Laravel = MVC(OOP)
+
+===========OOP=============
+Object => Class
+
+Car(Object) = Color, Model, Engine (Blueprint =>Class)
+
+
+class ClassName{
+    properties (variable,method)
+}
+
+public / private / protected function functionName(){
+     
+}
+
+23.22
