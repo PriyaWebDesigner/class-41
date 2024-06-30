@@ -8,6 +8,8 @@ Object => Class
 
 Car(Object) = Color, Model, Engine (Blueprint =>Class)
 
+laptop(object) = color, generation, SSD capasity, RAM
+
 
 class ClassName{
     properties (variable,method)

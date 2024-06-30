@@ -63,9 +63,8 @@ class Calculation{
         echo $result.'<br>';
     }
 }
-
+ 
 $calculationObject = new Calculation();
-
 echo $calculationObject -> sum(400, 400).'<br>'; //800
 
 $resultData = $calculationObject -> mul();
@@ -74,6 +73,46 @@ echo '<br>';
 
 $calculationObject -> sub();
 $calculationObject -> div();
+
+?>
+
+<?php
+//Example-3
+
+class Laptop{
+    
+    public function color($color){
+
+        $result = $color;
+        return $result;
+
+    }
+
+    public function generation($gen){
+
+        $result = $gen;
+        return $result;
+    }
+
+    public function ssdCapasity($capasity){
+
+        $result = $capasity;
+        return $result;
+    }
+
+    public function ram($ram){
+
+        $result = $ram;
+        return $result;
+    }
+}
+
+$laptopObject = new Laptop();
+
+echo $laptopObject->color("silver").'<br>';
+echo $laptopObject->generation(11).'<br>';
+echo $laptopObject->ssdCapasity("512GB").'<br>';
+echo $laptopObject->ram("8GB").'<br>';
 
 ?>
 
